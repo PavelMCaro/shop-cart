@@ -1,0 +1,30 @@
+.products{
+  width: 200px;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  &__button{
+    width: 164px;
+    height: 48px;
+    background: lightblue;
+    border-radius: 32px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.listproducts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  padding: 32px;
+}
